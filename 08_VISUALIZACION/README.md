@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visualización avanzada en Julia
 
 Incluye ejemplos con Plots.jl y Makie.jl para crear gráficos básicos y avanzados.
@@ -6,3 +7,13 @@ Incluye ejemplos con Plots.jl y Makie.jl para crear gráficos básicos y avanzad
 - `makie_avanzado.jl`: Gráfico de seno con Makie
 
 Instala los paquetes antes de ejecutar los ejemplos.
+=======
+# Visualización avanzada en Julia
+
+Incluye ejemplos con Plots.jl y Makie.jl para crear gráficos básicos y avanzados.
+
+- `plots_basico.jl`: Gráfico cuadrático simple
+- `makie_avanzado.jl`: Gráfico de seno con Makie
+
+Instala los paquetes antes de ejecutar los ejemplos.
+>>>>>>> 1ed4dc5a19737d2c287485414e56dac4f867a095

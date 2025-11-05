@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+[project]
+name = "CursoJuliaModules"
+version = "0.1.0"
+authors = ["Ibar-Dev"]
+description = "Módulos de ejemplo para el curso de Julia"
+=======
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+>>>>>>> 1ed4dc5a19737d2c287485414e56dac4f867a095
