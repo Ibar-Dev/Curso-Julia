@@ -2,7 +2,8 @@
 
 using JSON
 
-json_str = "{"name": "Julia", "year": 2025}"
+# El string JSON debe estar correctamente escapado
+json_str = "{\"name\": \"Julia\", \"year\": 2025}"
 data = JSON.parse(json_str)
 
 struct Persona
