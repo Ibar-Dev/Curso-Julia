@@ -1,4 +1,4 @@
-# Julia_Curso_Completo
+# Julia Curso Completo
 
 Este curso unifica y mejora los contenidos de "Introduccion_Julia" y "Tutorial_Julia". La estructura está organizada por niveles y recursos, eliminando redundancias y facilitando el aprendizaje progresivo.
 
@@ -18,3 +18,4 @@ Este curso unifica y mejora los contenidos de "Introduccion_Julia" y "Tutorial_J
 ---
 
 Si tienes sugerencias o encuentras redundancias, puedes contribuir mejorando este curso.
+
