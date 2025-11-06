@@ -128,10 +128,60 @@ Set-Alias -Name jc -Value julia-curso
 ```
 
 **En Linux/Mac (bash/zsh):**
+
 ```bash
-# Agrega a ~/.bashrc o ~/.zshrc
+# Agrega a tu archivo ~/.bashrc o ~/.zshrc:
 alias jc='julia --project=.'
 alias julia-curso='julia --project=.'
+```
+
+**¿Cómo activar el entorno del proyecto?**
+
+1. Abre Julia desde la terminal usando el alias:
+   ```bash
+   jc
+   # o
+   julia-curso
+   ```
+2. Dentro del REPL de Julia, entra al modo de paquetes presionando `]`:
+   ```
+   julia>
+   pkg>
+   ```
+3. Activa el proyecto con:
+   ```
+   pkg> activate .
+   # o usando el alias:
+   pkg> activate julia-curso
+   pkg> activate jc
+   ```
+4. Salir del proyecto y del entorno julia:
+   ```
+   Crtl+D
+   ```
+
+**Visualización del prompt:**
+
+Cuando el entorno está activado correctamente, verás el nombre del proyecto entre paréntesis antes de `pkg>`:
+
+```
+(julia-curso) pkg>
+(nombre_del_repositorio) pkg>
+```
+
+---
+
+**Ejemplo de flujo:**
+
+```bash
+# 1. Inicia Julia con el alias
+jc
+
+# 2. Activa el entorno en el REPL
+] activate .
+
+# 3. Confirma que el prompt cambió:
+(julia-curso) pkg>
 ```
 
 **Uso con alias:**
