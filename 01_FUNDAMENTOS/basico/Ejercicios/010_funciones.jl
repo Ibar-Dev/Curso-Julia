@@ -1,20 +1,34 @@
-# Ejercicio básico: Funciones
+############################################################
+# 010_funciones.jl
+# Ejercicio guiado: Funciones en Julia
+############################################################
+
+# Pregunta socrática:
+# ¿Por qué es recomendable encapsular lógica en funciones?
+
+# Teoría breve:
+# Una función es un bloque reutilizable de código que puede recibir argumentos y devolver resultados.
 #
-# Instrucción:
-# Realiza ejercicios de funciones que sean diferentes a los ejemplos vistos en clase.
-# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
+# Métrica: La función debe devolver el resultado correcto para distintos argumentos.
 
+# Ejemplo correcto:
 function suma(a, b)
     return a + b
 end
 
 resultado = suma(5, 7)
 println("La suma es: $resultado")
-# Ejercicio básico: Funciones
 
-function suma(a, b)
-    return a + b
-end
+# Antipatrón:
+# function suma(a, b)
+#     a + b
+# end
+# En Julia, si no se usa return ni es la última línea, el valor puede no devolverse correctamente.
 
-resultado = suma(5, 7)
-println("La suma es: $resultado")
+# Ejercicio práctico:
+# TODO: Escribe una función que calcule el área de un círculo dado su radio.
+# TODO: Escribe una función que reciba un vector y devuelva el mayor elemento.
+
+# Criterios de éxito:
+# - El código debe ejecutarse sin errores.
+# - Las funciones deben devolver el resultado correcto y mostrarse con println().

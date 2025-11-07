@@ -1,26 +1,39 @@
-# Ejercicio básico: Manipulación de cadenas
+############################################################
+# 003_strings.jl
+# Ejercicio guiado: Manipulación de cadenas en Julia
+############################################################
+
+# Pregunta socrática:
+# ¿Por qué es importante manipular correctamente cadenas de texto en programación?
+
+# Teoría breve:
+# Las cadenas (strings) permiten almacenar y procesar texto. Julia ofrece funciones para transformar, buscar y modificar cadenas.
 #
-# Instrucción:
-# Realiza ejercicios de manipulación de cadenas (strings) que sean diferentes a los ejemplos vistos en clase.
-# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
+# Métrica: El resultado de cada operación debe ser correcto y el tipo debe ser String.
 
+# Ejemplo correcto:
 texto = "Aprendiendo Julia"
-longitud = length(texto)
-mayusculas = uppercase(texto)
-minusculas = lowercase(texto)
+longitud = length(texto)         # Longitud de la cadena
+mayusculas = uppercase(texto)    # Todo en mayúsculas
+minusculas = lowercase(texto)    # Todo en minúsculas
 
+# Documentación inline:
 println("Texto: $texto")
 println("Longitud: $longitud")
 println("Mayúsculas: $mayusculas")
 println("Minúsculas: $minusculas")
-# Ejercicio básico: Manipulación de cadenas
 
-texto = "Aprendiendo Julia"
-longitud = length(texto)
-mayusculas = uppercase(texto)
-minusculas = lowercase(texto)
+# Antipatrón:
+# texto[1] = 'A'
+# Las cadenas en Julia son inmutables, no se pueden modificar por índice.
 
-println("Texto: $texto")
-println("Longitud: $longitud")
-println("Mayúsculas: $mayusculas")
-println("Minúsculas: $minusculas")
+# Ejercicio práctico:
+# TODO: Realiza las siguientes operaciones y muestra el resultado:
+# - Extrae la primera palabra de la cadena
+# - Reemplaza una palabra por otra
+# - Verifica si la cadena contiene la palabra "Julia"
+# - Concatena dos cadenas diferentes
+
+# Criterios de éxito:
+# - El código debe ejecutarse sin errores.
+# - Los resultados deben ser correctos y mostrarse con typeof().

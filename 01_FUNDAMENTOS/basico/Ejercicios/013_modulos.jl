@@ -1,30 +1,34 @@
-# Ejercicio básico: Módulos
+############################################################
+# 013_modulos.jl
+# Ejercicio guiado: Módulos en Julia
+############################################################
+
+# Pregunta socrática:
+# ¿Para qué sirve un módulo y cuándo conviene usarlo?
+
+# Teoría breve:
+# Un módulo permite organizar y reutilizar código, agrupando funciones, tipos y constantes bajo un mismo espacio de nombres.
 #
-# Instrucción:
-# Realiza ejercicios de módulos que sean diferentes a los ejemplos vistos en clase.
-# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
+# Métrica: El módulo debe poder ser usado desde fuera y sus funciones deben ejecutarse correctamente.
 
+# Ejemplo correcto:
 module Saludo
-export saludar
-
-function saludar(nombre)
-    println("¡Hola, $nombre!")
-end
-
+    export saludar
+    function saludar(nombre)
+        println("¡Hola, $nombre!")
+    end
 end
 
 using .Saludo
 Saludo.saludar("Julia")
-# Ejercicio básico: Módulos
 
-module Saludo
-export saludar
+# Antipatrón:
+# Definir funciones globales sin módulo puede causar conflictos de nombres en proyectos grandes.
 
-function saludar(nombre)
-    println("¡Hola, $nombre!")
-end
+# Ejercicio práctico:
+# TODO: Crea un módulo llamado Matematica con una función que calcule el cuadrado de un número.
+# TODO: Usa el módulo y muestra el resultado de la función.
 
-end
-
-using .Saludo
-Saludo.saludar("Julia")
+# Criterios de éxito:
+# - El código debe ejecutarse sin errores.
+# - El módulo debe ser reutilizable y su función accesible desde fuera.
