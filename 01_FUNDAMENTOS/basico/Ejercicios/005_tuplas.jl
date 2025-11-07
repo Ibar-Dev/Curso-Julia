@@ -1,4 +1,8 @@
 # Ejercicio básico: Tuplas
+#
+# Instrucción:
+# Realiza ejercicios de tuplas que sean diferentes a los ejemplos vistos en clase.
+# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
 
 tupla = ("Julia", 2025, true)
 println("Tupla: $tupla")

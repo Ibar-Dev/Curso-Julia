@@ -1,4 +1,8 @@
 # Ejercicio básico: Vectores y operaciones
+#
+# Instrucción:
+# Realiza ejercicios de vectores que sean diferentes a los ejemplos vistos en clase.
+# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
 
 v = [1, 2, 3, 4, 5]
 cuadrados = v .^ 2

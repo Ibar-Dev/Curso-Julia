@@ -1,4 +1,8 @@
 # Ejercicio básico: Operaciones matemáticas y lógicas
+#
+# Instrucción:
+# Realiza ejercicios de operaciones básicas que sean diferentes a los ejemplos vistos en clase.
+# Asegúrate de que cada ejercicio esté alineado con el tema del archivo y fomente el aprendizaje activo.
 
 x = 7
 y = 3
